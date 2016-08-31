@@ -17,6 +17,7 @@
 /*обнулення базового стиля для блока*/
 .alike.null_normalize {	margin-top: 0; }
 .null_normalize > div {
+    min-width: 60%;
     width: 70%;
     float: right;
 }
