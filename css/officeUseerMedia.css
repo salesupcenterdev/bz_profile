@@ -1,1 +1,18 @@
-@media only screen and (min-width: 768px) and (max-width: 1059px) {}
+@media only screen and (min-width: 768px) and (max-width: 1059px) {
+	.null_normalize {
+		max-width: 60%;
+	}
+
+}
+@media only screen and (max-width: 1059px) {
+	.menu-navig-left {
+	    margin-left: -10px;
+	    width: 100%;
+	    max-width: 100%;
+	    float: none;
+	}
+	.null_normalize { max-width: 100%; }
+	.sm_section_user { width: 100%;	}
+	.bottomMarginBlock > div { padding: 0; }
+	.h_user_padding { text-align: center; }
+}
