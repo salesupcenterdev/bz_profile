@@ -1,3 +1,6 @@
+.all_section {
+    width: 100%;
+}
 .menu-navig-left {
 	width: 250px;
     float: left;
@@ -16,7 +19,7 @@
 
 /*обнулення базового стиля для блока*/
 .alike.null_normalize {	margin-top: 0; }
-.null_normalize > div {
+.null_normalize {
     min-width: 60%;
     width: 70%;
     float: right;
