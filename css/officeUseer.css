@@ -1,0 +1,41 @@
+.menu-navig-left {
+	width: 250px;
+    float: left;
+    margin-left: -10px;
+    max-width: 40%;
+}
+.menu-navig-left > nav > ul > li a { color: #4a4b48; }
+.menu-navig-left > nav > ul > li {
+	line-height: 2;
+	padding: 0 10px;
+}
+.menu-navig-left > nav > ul > li:hover { background-color: #cbfbaa; }
+
+/*обнулення базового стиля для блока*/
+.alike.null_normalize {	margin-top: 0; }
+.null_normalize > div {
+    width: 70%;
+    float: right;
+}
+.h_user_padding { padding: 5px 0 0 15px; }
+.null_normalize h2 > span {
+	color: #343e31;
+    font-weight: lighter;
+}
+.null_normalize > div > ul { 
+	text-align: start;
+	margin-top: 40px;
+}
+.vishilist {
+	display: block;
+    color: #0048ff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+   	text-align: center;
+}
+.vishilist:hover {
+	text-decoration: none;
+}
+.notBorder { border: none !important; }
+.bottomMarginBlock { margin-bottom: 60px; }
