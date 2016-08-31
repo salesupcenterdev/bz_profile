@@ -10,6 +10,9 @@
 	padding: 0 10px;
 }
 .menu-navig-left > nav > ul > li:hover { background-color: #cbfbaa; }
+.menu-navig-left .active {
+    background-color: #cbfbaa;
+}
 
 /*обнулення базового стиля для блока*/
 .alike.null_normalize {	margin-top: 0; }
