@@ -16,3 +16,159 @@
 	.bottomMarginBlock > div { padding: 0; }
 	.h_user_padding { text-align: center; }
 }
+
+/*copy http://bz.onclickparts.ru/*/
+.rating {
+    margin: 0 0 5px;
+}
+.stars {
+    display: inline-table;
+    font-size: 16px;
+    line-height: 16px;
+    color: #91999b;
+}
+.stars i:first-child {
+    margin-left: 0;
+}
+
+/*nav copy*/ 
+nav.nav .container, .menu .container {
+	overflow: visible;
+}
+
+.nav ul li {
+	display: inline-block;
+	line-height: 35px;
+}
+
+
+/*menu copy*/
+.menu {
+    height: 80px;
+}
+.menu a:hover, .nav a:hover  {
+	text-decoration: underline;
+}
+.menu > .container {
+	min-height: 25px;
+	padding-top: 5px;
+}
+.menu :nth-child(2) {
+	padding-top: 0;
+}
+.menu__logo {
+    margin-left: 0px;
+}
+.menu__phone {
+    display: inline-block;
+    vertical-align: middle;
+    color: #649c0d;
+    font-size: 20px;
+}
+.menu__catalog.lg-md {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.iblock {
+    display: inline-block;
+}
+.nav__callback {
+    background: #649c0d;
+    border: 1px solid #000;
+    text-transform: none;
+    line-height: 20px;
+}
+.menu__catalog {
+    margin-right: 50px;
+    margin-left: 38px;
+}
+.menu__catalog, .menu__catalog-sm {
+    line-height: 50px;
+    color: #4a4b48;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 80px;
+    position: relative;
+}
+.menu__search, .menu__search input {
+    width: 605px;
+}
+nav .container .menu__account {
+	line-height: 15px;
+}
+.head_name {
+	color: #fff;
+}
+/*footer copy*/
+.footer {
+    padding: 0 0 40px;
+}
+.footer > .container, nav > .container, menu > .container {
+	padding: 0 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.footer .cols {
+    margin: 0;
+}
+.footer .cols .col:first-child {
+    margin-left: 0;
+}
+.footer .cols .col {
+    float: left;
+    width: 222.5px;
+    margin: 0 0 0 50px;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+}
+.hr-figure {
+    clear: both;
+    margin: 0 0 15px;
+    height: 11px;
+    background: url("../img/footer_line.png") left center repeat-x;
+}
+.hr-figure span {
+    display: block;
+    height: inherit;
+    background: url("../img/footer_infinity.png") center center no-repeat;
+}
+.footer .cols .col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer .cols .col ul li {
+    margin: 12px 0 0;
+}
+.footer .cols .col ul li:first-child {
+    margin-top: 0;
+}
+.footer .cols .col ul li a {
+    /* border-bottom: #c7d4da 1px solid; */
+    font-variant: small-caps;
+    font-size: 14px;
+    color: #336379;
+    font-family: "Open Sans";
+    /*test*/
+    font-family: sans-serif;
+}
+.footer .cols .col.address .phone {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+.s-fgrey {
+    color: #777570;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
