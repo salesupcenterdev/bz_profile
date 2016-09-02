@@ -65,10 +65,7 @@ nav.nav .container, .menu .container {
     color: #649c0d;
     font-size: 20px;
 }
-.menu__catalog.lg-md {
-    font-size: 18px;
-    font-weight: lighter;
-}
+
 .iblock {
     display: inline-block;
 }
@@ -77,13 +74,14 @@ nav.nav .container, .menu .container {
     border: 1px solid #000;
     text-transform: none;
     line-height: 20px;
+    font-size: 12px;
 }
 .menu__catalog {
     margin-right: 50px;
     margin-left: 38px;
 }
 .menu__catalog, .menu__catalog-sm {
-    line-height: 50px;
+    line-height: 41px;
     color: #4a4b48;
     font-weight: bold;
     font-size: 16px;

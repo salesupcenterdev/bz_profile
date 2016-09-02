@@ -46,3 +46,15 @@
 }
 .notBorder { border: none !important; }
 .bottomMarginBlock { margin-bottom: 60px; }
+
+/* catalog */
+div.overlay {
+    top: 107px;
+}
+ul.menu__catalog__block:before {
+    top: -25px;
+}
+ul.menu__catalog__block {
+    top: 52px;
+}
+
