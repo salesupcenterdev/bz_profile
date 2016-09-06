@@ -58,3 +58,66 @@ ul.menu__catalog__block {
     top: 52px;
 }
 
+/* table */
+
+
+
+
+.mytable {
+  display: table;
+  width: 100%;
+  padding: 10px 0 0 15px;
+}
+
+.mytable  a {
+    text-decoration: underline;
+}
+
+.mytable  a:hover {
+    text-decoration: none;
+}
+
+.myrow {
+  display: table-row;   
+}
+
+.mycell {
+  display: table-cell;
+  line-height: 3em;
+  border-bottom: 1px solid #d7d7d7;
+  font-size: 14px;  
+}
+
+.column1 {
+  display: table-column; 
+}
+
+.column2 {
+  display: table-column;   
+}
+
+.column3 {
+  display: table-column;   
+}
+
+.myrow :nth-child(1) {
+    text-align: left;
+}
+
+.myrow {
+    text-align: center;
+}
+
+.mytable :last-child .mycell {
+    border-bottom: none;
+}
+
+
+/* for cupons */
+.cupons > .myrow :nth-child(2)  {
+    text-align: left;
+}
+/* /cupons */
+
+
+/* /table */
