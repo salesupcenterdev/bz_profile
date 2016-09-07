@@ -71,6 +71,9 @@ ul.menu__catalog__block {
 
 .mytable  a {
     text-decoration: underline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .mytable  a:hover {
@@ -111,13 +114,106 @@ ul.menu__catalog__block {
 .mytable :last-child .mycell {
     border-bottom: none;
 }
-
+/*.rowleft :nth-child(n+2) :last-child .mycell {
+    border-bottom: none;
+}
+*/
 
 /* for cupons */
 .cupons > .myrow :nth-child(2)  {
     text-align: left;
 }
 /* /cupons */
+
+
+/* for room */
+
+.rowleft {
+    float: left;
+    width: 70%;
+}
+
+.rowleft > .mytable > .myrow {
+    text-align: left;
+}
+.rowleft :nth-child(1) > .myrow > .mycell {
+    border: none;
+}
+
+.rowright {
+    float: right;
+    width: 30%;    
+}
+
+.roomLink a {
+    display: block;
+    font-size: 12px;
+    overflow: visible;
+    color: #2e3593;
+    line-height: 2.5;
+}
+
+/*.informNameLeft {
+    width: 35%;
+}
+
+.informNameRight {
+    width: 65%;
+}*/
+
+.formRadioUser {
+    display: flex;
+}
+
+.borderLeft {
+    border-right: 1px solid #d6d6d6;
+    margin-left: -15px;
+}
+.contactTitle {
+    font-size: 1.7em;
+}
+.contactTitle + h6 {
+    float: right;
+    top: -70px;
+    position: relative;
+    font-size: 11px;
+    font-weight: lighter;
+    right: 55px;
+}
+
+/*icons check*/
+.fa1_5 {
+    font-size: 1.5em;
+}
+
+/*img room*/
+.mycell > img {
+    vertical-align: middle;
+    position: relative;
+    padding: 0 10px 0 0;
+}
+
+
+.mycell > input {
+    display: none;
+}
+.mycell > input + label {
+    color: #cdcdcd;
+}
+.mycell > input + label:hover {
+    color: #2ECCA5;
+    /*color: #2ECC38;*/
+}
+.mycell > input:checked + label {
+    color: #2ecc71;
+}
+.formRadioUser > .mytable > .myrow > .mycell {
+    border-top: 1px solid #d6d6d6;
+    text-align: left;
+}
+
+
+/* /room */
 
 
 /* /table */
