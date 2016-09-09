@@ -1,6 +1,6 @@
-.pt_sans {
+/*.pt_sans {
 	font-family: 'PT Sans', sans-serif;
-}
+}*/
 .static_block {
 	display: block;
 }
@@ -26,22 +26,30 @@
     color: #363636;
     line-height: 1.5;
 }
-.staticH1 {
-	font-size: 3em;
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', sans-serif;
 	color: #333333;
+	font-style: normal;
 }
-.staticH4 {
-    font-size: 2em;
-    color: #333333;
-    font-weight: 400;
-    font-style: normal;
+h1 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.6em;
+}
+/*.staticH1 {
+	font-size: 3em;	
 }
 .staticH3 {
-	color: #363636;
-	font-weight: 700;
-	font-size: 1.6em;
+	font-size: 2em;
     min-height: 50px;
 }
+.staticH4 {
+    font-size: 1.6em;   
+}*/
 .about_text {
     font-size: 1.1em;
 	text-align: justify;
@@ -95,14 +103,13 @@
 .phone_static :first-child {
 	padding-left: 0;
 }
-.phone_static p {
+/*.phone_static p {
 	padding-left: 20px;
-}
+}*/
 .phone_static span {
 	font-style: italic;
     font-size: 16px;
-    color: #6B6B6B;
-    padding-left: 20px;
+    color: #6B6B6B;    
     width: 430px;
     display: block;
 }
