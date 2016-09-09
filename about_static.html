@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Bookzone</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/officeUseer.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/officeUseerMedia.css"/>
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"/> -->
+    <link rel="stylesheet" href="css/pagesStatic.css"/>    
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="overlay2"></div>
+
+
+<!-- copy -->
+<nav class="nav cf lg">
+  <div class="container">
+    <ul>
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Оплата</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Бонусная система</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Подарочные сертификаты</a></li>
+      <li class="menu__account">
+        <span class="head_name">mmmm mmm,</span><br><a class="personal_link" href="#"><span>Ваш личный кабинет</span></a>    
+        </li>
+      <li><a href="#">Выход</a></li>
+    </ul>   
+  </div>
+</nav>
+<!-- end copy -->
+
+<!-- nav smoll -->
+<nav class="nav cf md-sm">
+      <div class="container">
+        <div class="nav-md">Меню
+          <ul class="nav-md__block">
+            <li><a href="" class="nav-md__callback">Заказать обратный звонок</a></li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Оплата</a></li>
+            <li><a href="">Доставка</a></li>
+            <li><a href="">Бонусная система</a></li>
+            <li><a href="">Подарочные сертификаты</a></li>
+            <li><a href="">Корпоративным клиентам</a></li>
+            <li><a href="">Контакты</a></li>
+            <li><a href="">Выход</a></li>
+          </ul>
+        </div>
+        <div class="menu__search md-sm">
+          <input type="text"><a href="">
+            <div class="menu__search__loupe"><img src="img/search-md.png" alt=""></div></a>
+        </div>
+      </div>
+  </nav>
+<!-- end smoll nav -->
+
+<!-- menu copy -->
+      <menu class="menu cf">
+        <div class="container">
+
+          <div class="menu__logo lg"><a href="/"><img src="img/logo.png"></a>
+          </div>
+          <div class="menu__logo md"><a href=""><img src="img/logo-md.png" alt=""></a></div>
+
+          <div class="menu__phone">
+            <div class="iblock">
+              (044) 123-45-67,
+            </div>
+            <div class="iblock">
+              (050) 234-56-78,
+            </div>
+            <div class="iblock">
+              (067) 345-67-89,
+            </div>
+            <div class="iblock">
+              (063) 456-78-90
+            </div>  
+          </div>
+
+          <div class="iblock callback_block">
+            <a href="" class="nav__callback  callback">Заказать обратный звонок</a>
+          </div>
+
+        </div>
+
+
+        <div class="container sm_catalog_icon">
+
+          <div class="menu__catalog lg-md sm">Каталог
+            <ul class="menu__catalog__block"> 
+                <!-- first level-->
+              <li>
+                <a href="#">Бизнес книга</a>
+              </li>
+              <!-- first level-->
+              <li>
+                <a href="#">Общая теория программирования</a>
+              </li>
+              <!-- first level-->
+              <li>
+                <a href="#">Программирование для мобильных устройств</a>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="menu__search lg">
+            <form method="get" action="#">
+              <input type="text" name="q" placeholder="Поиск">
+              <a href="#">
+                <div class="menu__search__loupe">
+                  <img src="img/search.png" alt="">
+                </div>
+              </a>
+            </form>
+          </div>
+          <div class="menu_icons">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="img/menu_icon1.png" alt="" class="lg">
+                  <img src="img/menu_icon1-md.png" alt="" class="md">
+                  <img src="img/menu_icon1-sm.png" alt="" class="sm">
+                </a>
+              </li>
+              
+              <li>
+                <a href="#">
+                  <img src="img/menu_icon2.png" alt="" class="lg">
+                  <img src="img/menu_icon2-md.png" alt="" class="md">
+                  <img src="img/menu_icon2-sm.png" alt="" class="sm">
+                  <div class="menu_icons_num" id="wishlist_cnt"></div>
+                </a>
+              </li>
+
+              <li>
+                <img src="img/menu_icon3.png" alt="" class="lg">
+                <img src="img/menu_icon3-md.png" alt="" class="md">
+                <img src="img/menu_icon3-sm.png" alt="" class="sm">
+              </li>
+            </ul>
+          </div>
+        </div> <!-- container -->
+      </menu>
+    <section class="breadcrumbs">
+      <div class="container">
+        <ul>
+          <li><a href="">Главная</a></li>
+          <li><a href="">Информация</a></li>          
+        </ul>
+      </div>
+    </section>
+
+    <section class="content cf">
+      <div class="container">
+
+        <div>
+          <h1 class="left_text">О компании</h1>
+          <p class="staticText">Книжный  интернет-магазин «Bookzone» - подразделение компании «Технокнига» и с 2003 года предлагает широкий выбор специализированной литературы.</p>
+        </div>
+        
+        <div>
+          <h4 class="staticH4">Наша история</h4>
+          <p class="staticText">С 2010-го года мы расширили ассортимент магазина художественной книгой, книгами для детей, литературой о хобби, психологии и здоровье.</p>
+          <p class="staticText">С 2011-го года Bookzone регулярно принимает участие в тематических выставках  («Книжковий Арсенал»,  «Книжковий Форум»).</p>
+          <p class="staticText">С 2013-го года мы расширили географию отправками посылок и начали отправлять заказы за границу</p>
+        </div>
+
+        <div>
+          <h4 class="staticH4">Наши преимущества</h4>
+
+          <div class="troi_block">
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+              <h3 class="staticH3 center_block">Склад на 10.000+ позиций</h3>
+              <p class="about_text">На нашем складе находится более 10.000 книг. Это значит, что вам не придется подолгу ждать пока книга появится в наличии. Мы просто сразу отправляем ваш заказ.</p>
+            </div>
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+               <h3 class="staticH3 center_block">Широкий спектр тематик</h3>
+              <p class="about_text">На нашем складе находится более 10.000 книг. Это значит, что вам не придется подолгу ждать пока книга появится в наличии. Мы просто сразу отправляем ваш заказ.</p>
+              <a href="#" class="link_static static_block center_block">перейти в каталог</a>
+            </div>
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+              <h3 class="staticH3 center_block">Прямые поставки</h3>
+              <p class="about_text ">На нашем складе находится более 10.000 книг. Это значит, что вам не придется подолгу ждать пока книга появится в наличии. Мы просто сразу отправляем ваш заказ.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="troi_block content">
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+              <h3 class="staticH3 center_block">Быстрая доставка по Киеву</h3>
+              <p class="about_text">Мы доставляем заказы по Киеву в течении 3 часов с момента его оформления</p>
+              <a href="#" class="link_static static_block center_block">подробнее о доставке</a>
+            </div>
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+               <h3 class="staticH3 center_block">Международная доставка</h3>
+              <p class="about_text">С 2013 года мы расширили географию работы и отправляем заказы за рубеж</p>
+              <a href="#" class="link_static static_block center_block">подробнее о доставке</a>
+            </div>
+            <div class="troi_static_content">
+              <img id="u2_img" class="center_block_margin" src="img/u2.png">
+              <h3 class="staticH3 center_block">Удобная бонусная система</h3>
+              <p class="about_text ">Наша бонусная сисема проста и автоматизирована. Никаких кодов, подтверждений и подводных камней. Она просто работает</p>
+              <a href="#" class="link_static static_block center_block">подробнее о доставке</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="staticH4">Издательства</h4>
+          <!-- <div class="img_line_block">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192"><img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          <img id="u62_img" class="imgline" src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192">
+          </div>
+           -->
+          <div class="container img_block">
+            <ul>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+              <li><img src="http://d26uhratvi024l.cloudfront.net/gsc/6DU06C/58/09/76/580976c31f874fff9671df10dced51b9/images/о_компании/u62.png?token=54584a814680f01f2629c9898cefe192" alt="" class="imgline"></li>
+            </ul>
+            <a href="#" class="link_static static_block center_block">посмотреть все издательства</a>
+          </div>
+
+
+        </div>
+
+
+        <div class="container topPadding">
+          <h4 class="staticH4">Контакты</h4>
+          <p class="staticText">Мы всегда рады встречи с вами!</p>
+          <div class="phone_static">
+            <p class="staticText topPadding">Звоните нам:</p>
+            <p class="staticText">044-502-23-08 многоканальный (с 9:00 до 18:00, пн-сб)</p>
+            <p class="staticText">или</p>
+            <p class="staticText margin0">(044) 502-23-84</p>
+            <p class="staticText margin0">(093) 645-54-71</p>
+            <p class="staticText margin0">(050) 415-72-02</p>
+            <p class="staticText margin0">(067) 489-53-74</p>
+
+            <h4 class="staticH4">Пишите нам:</h4>
+            <p class="staticText">info@bookzone.com.ua</p>
+            <p class="staticText">04210, м.Київ, а/с 138 (для писем)</p>
+
+            <h4 class="staticH4">Пишите нам:</h4>
+            <p class="staticText margin0">г. Киев, Вербовая 17</p>
+            <span>(книжный магазин “Читайка”, 100 метров от станции метро «Петровка»).</span>
+            <p class="staticText margin0">9.00 – 20.00, без выходных и без перерывов.</p>
+            <a href="#" class="link_static static_block center_block topPadding">посмотреть на карте</a>
+          </div>
+
+          
+
+        </div>
+
+
+        
+
+
+      </div>
+    </section>
+    
+    
+    <footer class="footer lg">
+      <div class="container">
+        <div class="footer__logo notBorder"><a href=""><img src="img/footer_logo.png" alt=""/></a><span>Интернет-магазин<br/>специализированной литературы</span></div>
+        <!-- тест -->
+        <div class="cols">
+          <div class="col">
+            <div class="hr-figure"><span></span></div>
+            <ul>
+              <li><a href="/about/">О компании</a></li>
+              <li><a href="/info/payment.php">Оплата</a></li>
+              <li><a href="/info/delivery.php">Доставка</a></li>
+              <li><a href="/info/bonus.php">Бонусная система</a></li>
+              <li><a href="/about/contacts.php">Контакты</a></li>
+              <li><a href="/books/podarochnye-sertifikaty/">Подарочные сертификаты</a></li>
+            </ul>   
+          </div>
+
+          <div class="col">
+            <div class="hr-figure"><span></span></div>
+            <ul>
+              <li><a href="/books/biznes_kniga/">Бизнес книга</a></li>
+              <li><a href="/books/detskaya_kniga/">Детская книга</a></li>
+              <li><a href="/books/dukhovnyy_mir_i_zdorove/">Духовный мир и здоровье</a></li>
+              <li><a href="/books/kompyuternaya_literatura/">Компьютерная литература</a></li>
+              <li><a href="/books/nauka_i_tekhnologii/">Наука и технологии</a></li>
+            </ul></div><div class="col"><div class="hr-figure"><span></span></div><ul>
+            <li><a href="/books/podarki_i_aksessuary/">Подарки и аксессуары</a></li>
+            <li><a href="/books/uchebniki_i_obrazovanie/">Учебники и образование</a></li>
+            <li><a href="/books/khobbi_/">Хобби </a></li>
+            <li><a href="/books/khudozhestvennaya_kniga/">Художественная книга</a></li>
+          </ul>
+        </div>
+        <div class="col address">
+          <div class="hr-figure"><span></span></div>
+
+          <div class="phone" itemprop="telephone">
+            <div style="line-height: 26px; font-size: 18px;  text-align: center;">
+              <div class="iblock">
+                (044) 123-45-67
+              </div>
+              <div class="iblock">
+                (050) 234-56-78
+              </div>
+              <div class="iblock">
+                (067) 345-67-89
+              </div>
+              <div class="iblock">
+                (063) 456-78-90
+              </div>
+            </div>        </div>
+            <div class="s-fgrey" style="text-align:center;"><i class="fa fa-clock-o"></i> <i>
+              с 9:00 до 18:00, пн-пт        </i></div>
+            </div>
+          </div>
+          <!-- ==тест -->
+        </div>
+      </footer>
+      <footer class="footer md-sm">
+        <div class="container">
+          <div class="footer__logo"><a href=""><img src="img/footer_logo-md.png" alt=""/></a><span>Интернет-магазин<br/>специализированной литературы</span></div><span class="footer__menu__phone">(044) 502-23-08</span><span class="footer__menu__time">с 9:00 до 18:00, пн—пт</span><span class="footer__menu__address">Киев, пр-т. Московский, 10<br/>(в 100 метрах от рынка «Петровка»)</span>
+        </div>
+      </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
