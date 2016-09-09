@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Sans', sans-serif;
 	color: #333333;
 	font-style: normal;
+    /*font-weight: lighter;*/
 }
 h1 {
 	font-size: 3em;
@@ -47,9 +48,11 @@ h4 {
 	font-size: 2em;
     min-height: 50px;
 }
-.staticH4 {
     font-size: 1.6em;   
 }*/
+.stat_about_all h4 {
+	min-height: 50px;	
+}
 .about_text {
     font-size: 1.1em;
 	text-align: justify;
@@ -120,12 +123,12 @@ h4 {
 .margin0 {
 	margin: 0;
 }
-.strongText {
+/*.strongText {
 	font-weight: 700;
 	font-size: 20px;
     color: #363636;
-}
-.numeric {
+}*/
+.numeric > li {
 	list-style-type: decimal;
     list-style-position: inside;
 }
