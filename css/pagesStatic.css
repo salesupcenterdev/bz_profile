@@ -51,12 +51,12 @@ h4 {
     font-size: 1.6em;   
 }*/
 .stat_about_all h4 {
-	min-height: 50px;	
+	height: 50px;	
 }
 .about_text {
     font-size: 1.1em;
 	text-align: justify;
-	color: #333333;
+	color: #363636;
     line-height: 1.5;
 }
 .troi_block {
