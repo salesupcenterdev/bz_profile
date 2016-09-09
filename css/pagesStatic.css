@@ -1,3 +1,6 @@
+.pt_sans {
+	font-family: 'PT Sans', sans-serif;
+}
 .static_block {
 	display: block;
 }
@@ -19,13 +22,16 @@
 }
 .staticText {
 	font-weight: 400;
-    font-size: 20px;
+    font-size: 1.3em;
     color: #363636;
-    line-height: 1.4;
+    line-height: 1.5;
 }
-
+.staticH1 {
+	font-size: 3em;
+	color: #333333;
+}
 .staticH4 {
-    font-size: 24px;
+    font-size: 2em;
     color: #333333;
     font-weight: 400;
     font-style: normal;
@@ -33,12 +39,14 @@
 .staticH3 {
 	color: #363636;
 	font-weight: 700;
-	font-size: 24px;
-	height: 50px;
+	font-size: 1.6em;
+    min-height: 50px;
 }
 .about_text {
-	font-size: 18px;
+    font-size: 1.1em;
 	text-align: justify;
+	color: #333333;
+    line-height: 1.5;
 }
 .troi_block {
 	display: inline-block;
@@ -54,12 +62,12 @@
     height: 140px;
 }
 .troi_static_content > p {
-	height: 105px;
+    min-height: 125px;
 }
 .link_static  {
 	text-decoration: underline;
 	color: #AEAEAE;
-	font-size: 16px;
+	font-size: 1em;
 }
 .link_static:hover {
 	color: rgb(51, 153, 255);
@@ -105,3 +113,50 @@
 .margin0 {
 	margin: 0;
 }
+.strongText {
+	font-weight: 700;
+	font-size: 20px;
+    color: #363636;
+}
+.numeric {
+	list-style-type: decimal;
+    list-style-position: inside;
+}
+
+/* icon */
+
+[class*=mobo-] {
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	//display:inline;
+	//zoom:1;
+	vertical-align:middle;
+	margin-top:-3px;
+	margin-right:6px;
+	width:16px;
+	height:16px;
+}
+/*stacionar*/
+.mobo-home-16 {
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABRUlEQVQ4T6XTL0ieYRQF8N+ngsKQhc0i+AfTgkEMsiYIWoQVQTStqKBhjHVhLphWnAiiJpvBoiKILmzRtonLIoaBswgDwzblyv3g9UUZ8r3tvs+5557nnPtU1PhVaux3H0EvXqIbnajHKb7hC46KQ4sEzzGPYbQ+oCyItvAeF4EpEqxiIhs/4QCXqaAF/ZjO8zVMlgkC3JyA11gvqQhlO/kvsE/LBMdoT4lf0ZQ+XOMHzjCOV/iJtjJBFxoxiLdoSNP+YQB/EFf7nCq+lwmijsaPOTEmnSQ40tjGC7zDYvV6RRN7sI9IY7lgWBW7hBmcp8qI9U4Kb7CQ6IhrCntZD2EFHVkH9lZFUcEHzBacv8Jh1n1pavV4LnfhDkHEtIEn/1nv3xjFbllBrOwYRvAMdel84CKRSOMXNnPQ3/tSePTbqvk13gAnUDoR6obgvAAAAABJRU5ErkJggg==);
+}
+/*Vodafone*/
+.mobo-vodafone-16{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADVklEQVQ4T11TbWhTVxh+zr25uSa9SUxtbZNUS40tglNqkaJQdMH9UDbQFZShbDjmByjdDxV/qDhkigMHww6dH0Wcohuso6JuTGUUmhbbuTrSFUM/bNWmTWtikzb33tzcz51UrHXncOCc8573Oc95nvcQ/K+1tnZU+wK+Hd7iBRvs891L0gAxOx4918Ltrek1q35aEwp1zk0hcxfRaP+ZYLDiEMfZYNFAtvsvOJsaod7tgHX0GMa3bEbyVfqH1e9V7nuTNwswOvryjt9f/FE+kE3LMDp+h9B8FurVdrBnL0L6cg/kSRFKKo0pUQpXVy9blz87AzA0FPu2oiJwMD9XxBy0h3/C1d0MnLwOyVMJjD6Bk8aSEylIchailIWmyT/W1KzcScLhrqra2po+u/01ban3XwjXzgDnfgVydF1WhuT6OmDn5xBCdZDHksikpiiIDEKYWtI/+KyxMljeMENdM+Fo/Ao48R0gs1AWBSDnsojHn2GYxhdfaIJ37xcQo0OYnhah68ZNEo8n+kpLi6ryANrIU3CbNgDRCcDnh2Va0AhBloo6EBvGmGWh6uEjkOBSpAaHoKnqc5JIpBWPx8VzHAOz5Rcw9dsAbxnA294axDBIMCwexwaw8MQpcIePQIz0QBJFmcTHkorbJfC8wENtuQO2fjPsJYuovHl935hEINls6KIAroYDYE59A6WnF5IkZsnwcGzQ6y0Mwu0AeTEKZcUqLMxR9YqKANN8zYKxUfo6OqkWS76/AOWT7ZApgGHoMdLTE73oCwT2GPQ2rlCAduQ44qe/RnmhD16ngLw1E8RCW2wQ85ctR+lv95BJT2MqPg7CMc2kra1zpd8XiMybZwcRCmA5HTD3NyDZdB4GvTxDxyQdnmAVSq5cQ6a8Arm+fqRkCSX+4nUzj4xEopd43rE7L5tVtACWWwB/6zZSD+5DlqfhXL4C7MdbkXY6YfQN4FWG7nkKWjZ9sL5+tpS7/+kNs4SrYyldwvPIlfphMhRRVaFZBPrICPREApOSBLudi7gK2NWhUEh/5zO1t/99mWVtu2iF0afTTn03dIOWrQpFyUFRc2Dt7M9uB/tpPnn2L7w1HHjQGn6fMW2fUQvWGqblM3Sd0Q19nGrZxdrYGx9uDP0x9/x/QfJqzjc4sA8AAAAASUVORK5CYII=);
+}
+/*Київстар*/
+.mobo-kyivstar-16{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABiElEQVQ4T93Tu2vUURDF8c/EGB9RFCGVhbGzUBujgmARFBULjU0KUXYTwcYmrTYGwUqIWoqP3U0ZkIAvSCVaRhBFAiIBg2In+CiUhOjI/lwfm3X/AW955/C9M+fMDe3OeHZLM9Ir5TjQThZtAZXsFV7jk3Ks/68BlbyIjbit25TBWCjmvZlrLTOHWeXY/duDa7lOlyPCUdwP1ZxHV0PwQZj0zajheGsi12ChgI5nn3RWOoyVDf10qOQh4QwOYnlRSFcNxUiT89V8jL2Nu8+4I1z6E+ON3KDTMfT7bsxwPG0CVHKg0fY9qz0wGF/r9fZ70HZBmgv/BtRyvw5zTsZsIa/lLovmnYrnS7mtgJ+tTuKFcmw3kat88RGL0g5D8fJvSDPgVvboMIMe4bpSnJYZaqbRhyc22aM/Fn9BmgHVrL88gDc6bXMi6m5TyS3CM6zAeeW40AqoZv3HTRUhhn1K8XBJCiPC5WKU0KsU75pTqORO4RGuKMe5lhBGs8Nmdwsfumx1PN7XNT8A9O2ARzxjn8gAAAAASUVORK5CYII=);
+}
+/*Lifecell*/
+.mobo-lifecell-16{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACH0lEQVQ4T22TT0hUURTGf+dN4xQmQa0Mok0I0X+KGqMXughxoFULi6IJapHuyojc2LQoN9XWAiEQiqFVFNQQWtH8qTQiBdsIEUFBC1MQIsf37pV33sz0ZvJu3jvnvu+733e+d4WGZfO0IaTxSeHQClgM34jzGoesJJmOQiRa2DFu0MQg1a4BHNA6eA+ePnelg/4qrkZgJ8mySA8xBZ0mzmeEC5S5hK2AA5QHrCEnLt1BqQR2nAwO14nrScNylL7qCbbAJwz7aqqCjTKwgWE5QJ/Yj7Tyh58KiHNP2umts1XiCx7b6wiqSiw7xZYYYYnzJEjLYUa19pgHcsToxXKiZsHwEmECh5P4bMMwIraIz3oGZQ837ThPSXBcAeqtNjhYy6wkadN2iXUsM0eMstg8GXHJ2LecQ3jQGKuSxHiO4Yy4qizkLvAdw5Z/KZSYw2NjzWsYXSD5qrhM2QLdxPgt7XywBVJYngWZhCnMkuQH7zTCIG9fpV+UTu7rfpEcPl0V8hlghypz+BoSFBjAcEubzUATx2Q3Y3aKZuaZwWHrfymEP8GjkOAVOeJ0ab6b6JG9PNb+e6b5yy5V1vj/LgNLHAoJitzB4zKGF9JJSnsTXGORIRKVNKIEgcUWsrKfU9EhPsFnSFwdUguGBXVZd1sqLD6T0sHB0MUqyxbpx+O2XqToCgc3KkdIV9urE+Q5i3AFw2b90OEXUMLyUFzeRDlXAKiGuHY6KUHJAAAAAElFTkSuQmCC);
+}
+.icon_margin_r {
+	margin-right: 10px;
+}
+.icon_color {
+	color: #09a3f0;
+}
+/* end icon */
