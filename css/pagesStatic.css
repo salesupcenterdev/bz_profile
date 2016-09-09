@@ -1,6 +1,9 @@
 /*.pt_sans {
 	font-family: 'PT Sans', sans-serif;
 }*/
+body {
+	font-size: 16px;
+}
 .static_block {
 	display: block;
 }
@@ -20,12 +23,25 @@
 .left_text {
 	text-align: left;
 }
-.staticText {
+.staticText, dd {
 	font-weight: 400;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #363636;
     line-height: 1.5;
 }
+
+dd {
+    line-height: 1.9;
+    margin: 0;
+
+}
+
+dt {
+	font-weight: 600;
+    font-size: 1.3em;
+    color: #363636;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Sans', sans-serif;
 	color: #333333;
@@ -54,7 +70,7 @@ h4 {
 	height: 50px;	
 }
 .about_text {
-    font-size: 1.1em;
+    font-size: 1em;
 	text-align: justify;
 	color: #363636;
     line-height: 1.5;
@@ -170,3 +186,4 @@ h4 {
 	color: #09a3f0;
 }
 /* end icon */
+
