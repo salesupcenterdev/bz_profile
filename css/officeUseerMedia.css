@@ -40,8 +40,6 @@ nav.nav .container, .menu .container {
 	display: inline-block;
 	line-height: 35px;
 }
-
-
 /*menu copy*/
 .menu {
     height: 80px;
@@ -171,7 +169,6 @@ nav .container .menu__account {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
 /*search*/
 @media only screen and (max-width: 1059px) and (min-width: 768px){
 	.menu__search.md-sm {
@@ -249,5 +246,4 @@ nav .container .menu__account {
 		display: none;
 	}
 	/* end for room */
-
 } 

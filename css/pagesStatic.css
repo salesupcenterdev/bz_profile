@@ -1,17 +1,9 @@
-/*.pt_sans {
-	font-family: 'PT Sans', sans-serif;
-}*/
 body {
 	font-size: 16px;
 }
 .static_block {
 	display: block;
 }
-/*.staticH {
-	color: #333333;
-	font-size: 48px;
-}*/
-
 .center_block {
 	text-align: center;
 }
@@ -32,7 +24,6 @@ body {
 dd {
     line-height: 1.9;
     margin: 0;
-
 }
 
 dt {
@@ -45,27 +36,13 @@ dt {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'PT Sans', sans-serif;
 	color: #333333;
-	font-style: normal;
-    /*font-weight: lighter;*/
+	font-style: normal;    
 }
-h1 {
-	font-size: 3em;
-}
-h3 {
-	font-size: 2em;
-}
-h4 {
-	font-size: 1.6em;
-}
-/*.staticH1 {
-	font-size: 3em;	
-}
-.staticH3 {
-	font-size: 2em;
-    min-height: 50px;
-}
-    font-size: 1.6em;   
-}*/
+
+h1 {font-size: 3em;}
+h3 {font-size: 2em;}
+h4 {font-size: 1.6em;}
+
 .stat_about_all h4 {
 	height: 50px;	
 }
@@ -126,13 +103,7 @@ h4 {
    	margin: 20px 0 0 0;
     height: auto;
 }
-.phone_static h4 + .staticText {
-    /* padding: 0 0 0 0; */
-    margin: 8px 0 0 0;
-}
-/*.phone_static p {
-	padding-left: 20px;
-}*/
+.phone_static h4 + .staticText {margin: 8px 0 0 0;}
 .phone_static span {
 	font-style: italic;
     font-size: 16px;
@@ -141,23 +112,16 @@ h4 {
     display: block;
 }
 .phone_static > a {
-    text-align: left;
-    /*padding-left: 20px;*/
+    text-align: left;   
 }
 .margin0 {
 	margin: 0;
 }
 
-/*.strongText {
-	font-weight: 700;
-	font-size: 20px;
-    color: #363636;
-}*/
 .numeric > li {
 	list-style-type: decimal;
     list-style-position: inside;
 }
-
 /* icon */
 
 [class*=mobo-] {

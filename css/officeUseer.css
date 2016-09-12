@@ -59,10 +59,6 @@ ul.menu__catalog__block {
 }
 
 /* table */
-
-
-
-
 .mytable {
   display: table;
   width: 100%;
@@ -114,10 +110,6 @@ ul.menu__catalog__block {
 .mytable :last-child .mycell {
     border-bottom: none;
 }
-/*.rowleft :nth-child(n+2) :last-child .mycell {
-    border-bottom: none;
-}
-*/
 
 /* for cupons */
 .cupons > .myrow :nth-child(2)  {
@@ -127,7 +119,6 @@ ul.menu__catalog__block {
 
 
 /* for room */
-
 .rowleft {
     float: left;
     width: 70%;
@@ -152,14 +143,6 @@ ul.menu__catalog__block {
     color: #2e3593;
     line-height: 2.5;
 }
-
-/*.informNameLeft {
-    width: 35%;
-}
-
-.informNameRight {
-    width: 65%;
-}*/
 
 .formRadioUser {
     display: flex;
@@ -192,8 +175,6 @@ ul.menu__catalog__block {
     position: relative;
     padding: 0 10px 0 0;
 }
-
-
 .mycell > input {
     display: none;
 }
@@ -211,9 +192,5 @@ ul.menu__catalog__block {
     border-top: 1px solid #d6d6d6;
     text-align: left;
 }
-
-
 /* /room */
-
-
 /* /table */
