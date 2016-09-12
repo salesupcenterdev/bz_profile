@@ -39,6 +39,7 @@ dt {
 	font-weight: 600;
     font-size: 1.3em;
     color: #363636;
+    padding-top: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -121,6 +122,14 @@ h4 {
 .phone_static :first-child {
 	padding-left: 0;
 }
+.phone_static h4 {
+   	margin: 20px 0 0 0;
+    height: auto;
+}
+.phone_static h4 + .staticText {
+    /* padding: 0 0 0 0; */
+    margin: 8px 0 0 0;
+}
 /*.phone_static p {
 	padding-left: 20px;
 }*/
@@ -133,7 +142,7 @@ h4 {
 }
 .phone_static > a {
     text-align: left;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 .margin0 {
 	margin: 0;
@@ -196,20 +205,20 @@ a.contact_map {
 	width: 55%;
 }
 .tableStaticBonus > .myrow > .mycell {
-	border-top: 1px solid;
-    border-left: 1px solid;
+	/*border-top: 1px solid #d7d7d7;*/
+    border-left: 1px solid #d7d7d7;
     text-align: center;
     font-size: 1em;
 }
 .tableStaticBonus > .myrow:last-child > .mycell {
-	border-bottom: 1px solid;	
+	border-bottom: 1px solid #d7d7d7;	
 }
 .tableStaticBonus > .myrow > .mycell:last-child {
-	border-right: 1px solid;
+	border-right: 1px solid #d7d7d7;
 }
 .strongCell {
     font-weight: 700;
-        
+    border-top: 1px solid #d7d7d7;        
 }
 .staticText > span {
 	font-weight: 700;
