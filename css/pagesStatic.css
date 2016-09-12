@@ -14,7 +14,6 @@ body {
 
 .center_block {
 	text-align: center;
-	
 }
 .center_block_margin {
 	display: block;
@@ -139,6 +138,7 @@ h4 {
 .margin0 {
 	margin: 0;
 }
+
 /*.strongText {
 	font-weight: 700;
 	font-size: 20px;
@@ -187,3 +187,98 @@ h4 {
 }
 /* end icon */
 
+/*contact*/
+a.contact_map {
+	padding: 15px 0 0 0;
+    display: block;
+}
+.tableStaticBonus {
+	width: 55%;
+}
+.tableStaticBonus > .myrow > .mycell {
+	border-top: 1px solid;
+    border-left: 1px solid;
+    text-align: center;
+    font-size: 1em;
+}
+.tableStaticBonus > .myrow:last-child > .mycell {
+	border-bottom: 1px solid;	
+}
+.tableStaticBonus > .myrow > .mycell:last-child {
+	border-right: 1px solid;
+}
+.strongCell {
+    font-weight: 700;
+        
+}
+.staticText > span {
+	font-weight: 700;
+}
+.staticLink {
+	text-decoration: underline;
+}
+.staticLink:hover {
+	text-decoration: none;
+}
+
+.troi_static_content span {
+	font-style: italic;
+    font-size: 16px;
+    color: #6B6B6B;    
+    display: block;
+}
+/*map*/
+.maps {
+	display: none;
+}
+/*/map*/
+.red {
+	word-wrap: break-word;
+    background-color: #ffcaca;
+    padding: 21px;
+    text-align: center;
+    border: 1px solid #ffa8a8;
+    border-radius: 5px;
+    color: #5B0000;
+}
+.red.redBig {
+	padding: 38px;
+    margin: 35px 0 35px 0;
+    font-size: 1.3em;
+    text-align: left;
+}
+span.anot_h4 {
+	font-size: 0.9em;
+    font-weight: 100;
+    font-style: normal;
+}
+.img_danger {
+	width: 47px;
+    height: 47px;
+    vertical-align: middle;
+    float: left;
+    margin: 0 25px 0 0;
+}
+.stars {
+    color: #6B6B6B;
+    margin: 0;
+}
+.green {
+	padding: 38px;
+	margin: 35px 0;
+	background-color: #ddffdd;
+	word-wrap: break-word;	
+	border: 1px solid #a4ffa4;
+	border-radius: 5px;
+	color: #6B6B6B;
+}
+h4.titleGreen {
+    margin: 10px 0 0 0;
+}
+.green > p {
+	padding-left: 70px;
+    font-size: 1.3em;
+}
+.green span {
+	font-style: italic;
+}
